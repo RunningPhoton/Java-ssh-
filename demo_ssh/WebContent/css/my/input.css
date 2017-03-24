@@ -1,0 +1,67 @@
+@charset "utf-8";
+body {
+	font-size: 12px;
+}
+
+#header {
+	position: relative;
+	width: 100%;
+}
+
+#header ul {
+	margin-top: 1px;
+}
+
+#header ul li {
+	margin-left: 10px;
+}
+
+#header ul li a {
+	padding: 5px 10px;
+}
+
+#content {
+	position: relative;
+	width: 500px;
+	margin: 30px auto 0px;
+}
+
+#content dl dt {
+	font-size: 14px;
+	font-weight: bolder;
+	text-align: left;
+	text-indent: 28px;
+	letter-spacing: 3px;
+	border-bottom: solid 1px lightgray;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+#content dl dd {
+	margin: 15px 0px;
+	text-indent: 56px;
+}
+
+#content dl dd span {
+	display: inline-block;
+	width: 65px;
+	text-indent: 0px;
+}
+
+.input {
+	width: 300px;
+	height: 26px;
+	padding-left: 5px;
+}
+
+.input-radio {
+	margin-left: 50px !important;
+}
+
+.btn {
+	margin: 20px 30px 0px;
+}
+
+.btn-groups {
+	text-align: center;
+}
